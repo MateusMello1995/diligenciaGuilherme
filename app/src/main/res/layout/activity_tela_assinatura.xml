@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telaAssinatura">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/barrapesquisa" />
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="125dp"
+        android:background="#F44336"
+        android:backgroundTint="@color/colorVermelhoEscuro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="245dp"
+            android:layout_height="176dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/usericon" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textNome"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="240dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advogado"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="260dp"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

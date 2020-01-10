@@ -6,105 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".telaSobre">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/my_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorVermelhoEscuro"
-        android:minHeight="60dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="@android:color/white">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="A Diligência"
-            android:textColor="#ffffff"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+    <include layout="@layout/toolbar" />
 
 
-    </androidx.appcompat.widget.Toolbar>
+    <include
+        layout="@layout/barrapesquisa"
+        android:layout_width="411dp"
+        android:layout_height="866dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="324dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/imageView6"
+        android:layout_width="459dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bellpequenin" />
+        app:srcCompat="@drawable/advocacia"
+        android:contentDescription="@string/imagemAdvocacia" />
 
-
-    <Button
-        android:id="@+id/angry_btn"
-
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="355dp"
-
-        android:layout_marginTop="16dp"
-        android:background="@drawable/buttonshape3"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:text="@string/campoNotifi"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="375dp"
+        android:onClick="proximaTela"
+        android:text="@string/textSobre"
+        android:textAlignment="center"
+        android:textColor="@color/colorVermelhoEscuro"
+        android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="24dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="16dp"
-        android:background="#00ECECEC"
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="319dp"
+        android:layout_height="363dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="449dp"
+        android:text="@string/textLatim4"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu" />
-
-
-
-    <RelativeLayout
-        android:layout_width="414dp"
-        android:layout_height="67dp"
-        android:background="#810D0D"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
-
-        <EditText
-            android:id="@+id/editText6"
-            android:layout_width="320dp"
-            android:layout_height="35dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="15dp"
-            android:background="#FFFFFF"
-            android:backgroundTint="@color/colorVermelhoEscuro"
-            android:drawableLeft="@drawable/search"
-            android:ems="10"
-            android:inputType="textPersonName"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="350dp"
-            android:layout_marginLeft="350dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/equalizer" />
-
-    </RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
