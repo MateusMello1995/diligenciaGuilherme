@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">A Diligência</string>
+    <string name="btnExperimente">Experimente!</string>
+    <string name="campoEmail">E-mail</string>
+    <string name="campoSenha">Senha</string>
+    <string name="campoEsqueceu">esqueceu sua senha?</string>
+    <string name="campoAcesse">OU ACESSE COM:</string>
+    <string name="campoPergunta">Não é cadastrado?</string>
+    <string name="campoCadastro">CADASTRE-SE</string>
+    <string name="btnEntrar">ENTRAR</string>
+    <string name="textLatim">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien nulla, gravida sit amet ante at, consequat gravida tortor. Sed aliquet luctus ultricies.</string>
+    <string name="campoNotifi">1</string>
+    <string name="textLatim2">Lorem ipsum dolor sit amet, consectxetur adipiscing elit. Praesent facilisis, ex et bibendum lobortis, neque nulla venenatis nunc, ac porttitor leo augue et tortor. Nullam efficitur, erat et sodales gravida, elit lacus ultricies magna, eget laoreet erat ligula ut odio. Curabitur nec justo vitae nibh posuere condimentum. Aenean sit amet sem nec magna dapibus congue sed vitae elit. In varius scelerisque justo nec luctus. Integer odio ex, mattis vel faucibus vel, pretium sed diam. Donec nec quam sit amet dui feugiat scelerisque. Donec vel nibh auctor, convallis massa non, condimentum risus. In efficitur, leo eu dapibus aliquet, est urna scelerisque orci, in commodo augue lorem sit amet mauris. Proin tincidunt metus non nibh pulvinar cursus. Nullam in orci suscipit, egestas quam id, viverra lorem. Fusce neque tortor, congue feugiat aliquet sed, malesuada sit amet odio. Duis ut vestibulum tortor, quis malesuada dolor. Vivamus rutrum urna at nunc posuere tempus. Integer venenatis rhoncus odio, sed euismod ante malesuada in. In euismod vulputate egestas.</string>
+    <string name="textLatim3">Maecenas condimentum ex at leo auctor, suscipit condimentum tellus semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas ut sagittis nibh, in commodo nulla. Quisque sit amet turpis felis. Maecenas ultricies arcu nibh, eu tempor ex egestas rhoncus. Aenean nunc eros, efficitur id aliquet in, bibendum et neque. Curabitur nec nunc nec ipsum interdum dapibus. Duis dignissim hendrerit laoreet. .</string>
+    <string name="textSobre">Sobre</string>
+    <string name="textLatim4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus pellentesque mauris dictum tempus. Quisque vulputate, arcu ac bibendum tincidunt, urna mi posuere diam, sit amet feugiat ligula erat a nunc. Phasellus mattis, velit ac dapibus tincidunt, purus enim condimentum quam, vitae dictum justo dui eget lectus. Nam vel ligula elit. Suspendisse non augue et nulla tincidunt convallis sed sit amet dui. Sed ullamcorper luctus suscipit. Nunc nibh elit, sagittis tempor nulla et, convallis molestie nibh. Sed tempus nulla non odio vulputate, in efficitur libero eleifend. Duis nec congue nisl. Nam vestibulum mi consequat, iaculis tellus id, rhoncus metus. Nunc vestibulum, urna varius pretium suscipit, est libero euismod ipsum, ut elementum purus ligula vulputate nisl. Suspendisse luctus vel urna in ultrices. Donec eget sem purus. Quisque blandit odio ut nunc vulputate, sed dictum mauris auctor.</string>
+    <string name="textTermos">Termos e Condições</string>
+    <string name="imagemAdvocacia">TODO</string>
+    <string name="imagemFiltro">filtro</string>
+    <string name="textDiligencia">A Diligência</string>
+    <string name="textNome">John Doe</string>
+    <string name="textAdvogado">Advogado</string>
+    <string name="imagemUser">imagemUser</string>
+    <string name="textAssinatura">PLANO ASSINATURA</string>
+    <string name="textValor">R$49.00 mensais</string>
+    <string name="textApenas">Apenas:</string>
+    <string name="textAnuncio">Assine A Diligência e, tenha acesso a recursos exclusivos.</string>
+    <string name="textPremium">PREMIUM</string>
+    <string name="textFree">FREE</string>
+    <string name="title_activity_tela_navega">telaNavega</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="imageLogo">logo</string>
+
+
+</resources>
