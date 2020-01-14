@@ -25,17 +25,6 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="24dp"
-            android:layout_height="30dp"
-            android:layout_gravity="left"
-            android:background="#00ECECEC"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/menu"
-            tools:ignore="RtlHardcoded" />
-
         <Button
             android:id="@+id/angry_btn"
 
