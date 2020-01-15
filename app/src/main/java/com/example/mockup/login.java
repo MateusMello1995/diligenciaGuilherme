@@ -19,6 +19,12 @@ public class login extends AppCompatActivity {
         Intent intent = new Intent(this, telaSobre.class);
         startActivity(intent);
     }
+
+    public void proximaTela1(View view){
+
+        Intent intent = new Intent(this, cadastro.class);
+        startActivity(intent);
+    }
         }
 
 

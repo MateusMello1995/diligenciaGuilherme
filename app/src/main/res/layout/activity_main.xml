@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/angry_btn"
+        android:id="@+id/botaocad"
 
         android:layout_width="320dp"
         android:layout_height="45dp"

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".telabranco"></activity>
+        <activity android:name=".cadastro"></activity>
+        <activity android:name=".telabranco" />
         <activity
             android:name=".tela_menu"
             android:label="@string/title_activity_tela_menu"

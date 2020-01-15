@@ -11,9 +11,9 @@
         android:id="@+id/imageView"
         android:layout_width="319dp"
         android:layout_height="170dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="56dp"
-        android:contentDescription="@string/imageLogo"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="136dp"
+        android:contentDescription="@string/imagemLogo"
         android:src="@drawable/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -62,14 +62,14 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="24dp"
         android:background="@color/colorTransparente"
         android:text="@string/campoAcesse"
         android:textColor="#F3F3F3"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/angry_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/botaocad" />
 
     <TextView
         android:id="@+id/textView2"
@@ -90,13 +90,14 @@
         android:layout_marginStart="55dp"
         android:layout_marginTop="43dp"
         android:background="@color/colorTransparente"
+        android:onClick="proximaTela1"
         android:text="@string/campoCadastro"
         android:textColor="#FAFAFA"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <Button
-        android:id="@+id/angry_btn"
+        android:id="@+id/botaocad"
 
         android:layout_width="320dp"
         android:layout_height="45dp"

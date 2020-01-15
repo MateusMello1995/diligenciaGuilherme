@@ -26,7 +26,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/angry_btn"
+            android:id="@+id/botaocad"
 
             android:layout_width="35dp"
             android:layout_height="35dp"
