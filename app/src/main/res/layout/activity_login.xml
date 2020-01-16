@@ -137,6 +137,7 @@
 
         android:layout_marginTop="24dp"
         android:background="@color/colorVermelhoEscuro"
+        android:onClick="proximaTela2"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/googleplusbranco" />
