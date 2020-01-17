@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.BancoController;
+
 public class cadastro extends AppCompatActivity {
 
     @Override
@@ -23,7 +25,7 @@ public class cadastro extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //BancoController crud = new BancoController(getBaseContext());
+                BancoController crud = new BancoController(getBaseContext());
                 EditText nome = (EditText) findViewById(R.id.nome);
                 EditText email = (EditText) findViewById(R.id.email);
                 EditText senha = (EditText) findViewById(R.id.senha);
@@ -51,7 +53,6 @@ public class cadastro extends AppCompatActivity {
                         String resultado = "as senhas não conferem";
                         Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_LONG).show();
                     }
-
                 }
             }
         });

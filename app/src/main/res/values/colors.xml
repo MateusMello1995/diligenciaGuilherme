@@ -6,4 +6,5 @@
     <color name="colorVermelhoEscuro">#BF271F</color>
     <color name="colorBranco">#FFFFFF</color>
     <color name="colorTransparente">#00FFFFFF</color>
+    <color name="colorVermelhoClaro">#F53D3D</color>
 </resources>

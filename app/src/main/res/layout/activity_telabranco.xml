@@ -31,7 +31,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:background="@color/colorVermelhoEscuro"
+        app:itemBackground="@color/colorVermelhoClaro"
         app:headerLayout="@layout/nav_header_tela_menu"
+        app:itemTextColor="@color/colorBranco"
         app:menu="@menu/activity_tela_menu_drawer" />
 
     </androidx.drawerlayout.widget.DrawerLayout>
