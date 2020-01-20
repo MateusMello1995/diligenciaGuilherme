@@ -13,7 +13,7 @@ public class BancoController {
         banco = new CriaBanco(context);
     }
 
-    public String insereDado(String nome, String senha, String email){
+    public String insereDado(String nome, String email, String senha){
         ContentValues valores;
         long resultado;
 

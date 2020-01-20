@@ -3,6 +3,7 @@ package com.example.mockup;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -20,6 +21,7 @@ public class cadastro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
         Button botao = (Button) findViewById(R.id.botaocad);
+        final Intent intent = new Intent(this, login.class);
 
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,10 +46,13 @@ public class cadastro extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_LONG).show();
                 } else {
                     if (senhaString.equals(senhaConfString)) {
-                        String resultado = "Cadastrou";
+                        //String resultado = "Cadastrou";
+                        String resultado = crud.insereDado(nomeString,emailString,senhaString);
                         Toast toast = Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_SHORT);
                         toast.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, 0);
                         toast.show();
+
+                        startActivity(intent);
 
                     } else {
                         String resultado = "as senhas não conferem";
