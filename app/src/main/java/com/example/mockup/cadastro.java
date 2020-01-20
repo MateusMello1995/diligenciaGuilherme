@@ -20,7 +20,7 @@ public class cadastro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
-        Button botao = (Button) findViewById(R.id.botaocad);
+        Button botao = (                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Button) findViewById(R.id.botaocad);
         final Intent intent = new Intent(this, login.class);
 
         botao.setOnClickListener(new View.OnClickListener() {
