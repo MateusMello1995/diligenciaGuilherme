@@ -43,6 +43,7 @@
     <string name="menu_send">Send</string>
     <string name="imagemLogo">logo</string>
     <string name="title_activity_tela_menu">tela_menu</string>
+    <string name="title_activity_tela_mapa">Map</string>
 
 
 </resources>

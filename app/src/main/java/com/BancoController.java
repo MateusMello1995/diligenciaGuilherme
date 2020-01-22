@@ -2,7 +2,13 @@ package com;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
+import static com.CriaBanco.EMAIL;
+import static com.CriaBanco.SENHA;
+import static com.CriaBanco.TABELA;
+
 
 public class BancoController {
 
@@ -20,10 +26,10 @@ public class BancoController {
         db = banco.getWritableDatabase();
         valores = new ContentValues();
         valores.put(CriaBanco.NOME, nome);
-        valores.put(CriaBanco.EMAIL, email);
-        valores.put(CriaBanco.SENHA, senha);
+        valores.put(EMAIL, email);
+        valores.put(SENHA, senha);
 
-        resultado = db.insert(CriaBanco.TABELA, null, valores);
+        resultado = db.insert(TABELA, null, valores);
         db.close();
 
         if (resultado ==-1) {
@@ -32,5 +38,23 @@ public class BancoController {
             return "Registro Inserido com sucesso";
         }
 
+
+    }
+    public Cursor fazerLogin(String email, String senha){
+
+        db = banco.getWritableDatabase();
+        String sql = "SELECT * FROM "+TABELA+" WHERE "+EMAIL+" = ? AND "+SENHA+" = ?";
+        String[] selectionArgs = new String[]{ email, senha };
+        Cursor cursor = db.rawQuery(sql,selectionArgs);
+
+        if(cursor != null) {
+
+            cursor.moveToFirst();
+            return cursor;
+
+        }else{
+
+            return null;
+        }
     }
 }

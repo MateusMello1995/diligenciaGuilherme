@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtemail"
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="45dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtpass"
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="43dp"
@@ -44,7 +44,7 @@
         android:inputType="textPassword"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
 
     <Button
         android:id="@+id/button2"
@@ -56,7 +56,7 @@
         android:text="@string/campoEsqueceu"
         android:textColor="#EEECEE"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtpass" />
 
     <TextView
         android:id="@+id/textView"
@@ -107,7 +107,7 @@
         android:background="@drawable/buttonshape2"
         android:drawableStart="@drawable/enter"
         android:drawablePadding="3dp"
-        android:onClick="proximaTela"
+        android:onClick="login"
         android:paddingLeft="70dp"
         android:paddingRight="70dp"
         android:text="@string/btnEntrar"
