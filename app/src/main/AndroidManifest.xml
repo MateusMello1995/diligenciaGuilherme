@@ -33,7 +33,9 @@
 
         <activity
             android:name=".telaMapa"
-            android:label="@string/title_activity_tela_mapa"></activity>
+            android:label="@string/title_activity_tela_mapa"
+            android:theme="@style/NoActionBar">
+        </activity>
 
         <uses-library android:name="com.google.android.maps" />
 
