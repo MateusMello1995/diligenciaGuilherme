@@ -44,6 +44,8 @@
     <string name="imagemLogo">logo</string>
     <string name="title_activity_tela_menu">tela_menu</string>
     <string name="title_activity_tela_mapa">Map</string>
+    <string name="title_activity_mapa_exercicio">Map</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

@@ -32,10 +32,13 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
             android:name=".telaMapa"
             android:label="@string/title_activity_tela_mapa"
-            android:theme="@style/NoActionBar">
-        </activity>
+            android:theme="@style/NoActionBar" />
 
         <uses-library android:name="com.google.android.maps" />
 
