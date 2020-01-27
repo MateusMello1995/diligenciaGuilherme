@@ -44,7 +44,7 @@ public class login extends AppCompatActivity {
                 if (strEmail.equals(resEmail) && strSenha.equals(resSenha)) {
 
                     Toast.makeText(getApplicationContext(), "Seja bem-vindo.", Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(this, MapsActivity.class);
+                    Intent intent = new Intent(this, consultaCep.class);
                     startActivity(intent);
 
                 } else {
